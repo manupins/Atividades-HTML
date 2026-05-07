@@ -1,0 +1,21 @@
+div{
+    margin: 2px;
+    padding: 60px;
+    border: 2px solid black
+}
+
+.texto{
+    color:black;
+    background-color: blue;
+    font-size: 50px;
+    text-align: center;
+}
+
+.texto2{
+    color:black;
+    background-color: red;
+    font-size: 50px;
+    text-align: center;
+
+}
+
