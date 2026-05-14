@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial;
+    background-image: url("fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;  
+
+
+}
+
+header{
+    display: flex;
+     justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #6b1ba1;
+    color: white;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #f4aae5;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px 10px;
+    background-color: rgb(250, 229, 238);
+}
+
+.imagem img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;  
+}
+
+/* SECTION TECNOLOGIAS */
+.tech {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.tech h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.fotos1{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 0px;  
+
+}
+
+.fotos2{
+     position: absolute;
+  top: 535px;  /* 20px do topo */
+  right: 900px; /* 10px da direita */
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 0px;  
+}
+
+.fotos3{
+    position: absolute;
+  top: 525px;  /* 20px do topo */
+  right: 850px; /* 10px da direita */
+    width: 40px;
+    height: 5px;
+    object-fit: cover;
+    border-radius: 0px;  
+}
+
+.fotos4{
+      position: absolute;
+  top: 540px;  /* 20px do topo */
+  right: 450px; /* 10px da direita */
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 0px;  
+}
+
+.fotos5{
+     position: absolute;
+  top: 540px;  /* 20px do topo */
+  right: 250px; /* 10px da direita */
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 0px;  
+}
+
+.fotos6{
+     position: absolute;
+  top: 540px;  /* 20px do topo */
+  right: 60px; /* 10px da direita */
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 0px;  
+}
+
+
+.tech p{
+   color: #39035d;
+   font-style: oblique;
+}
+
+footer {
+    background-color: #f4aae5;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 200px;
+
+
+}
+
+.maneiro {
+    position: absolute;
+  top: 950px;  /* 20px do topo */
+  right: 400px; /* 10px da direita */
+}
+

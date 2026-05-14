@@ -1,7 +1,11 @@
 div{
     margin: 2px;
     padding: 60px;
-    border: 2px solid black
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    
 }
 
 .texto{
