@@ -120,6 +120,13 @@ main {
     object-fit: cover;
     border-radius: 0px;  
 }
+.fotos7{
+     position: absolute;
+  top: 540px;  /* 20px do topo */
+  right: 1200px; /* 10px da direita */
+    object-fit: cover;
+    border-radius: 0px;  
+}
 
 
 .tech p{
