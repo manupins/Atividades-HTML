@@ -69,7 +69,10 @@ main {
 }
 
 .fotos1{
-    width: 200px;
+    position: absolute;
+  top: 535px;  /* 20px do topo */
+  right: 1050px; /* 10px da direita */
+    width: 160px;
     height: 100px;
     object-fit: cover;
     border-radius: 0px;  
@@ -79,8 +82,8 @@ main {
 .fotos2{
      position: absolute;
   top: 535px;  /* 20px do topo */
-  right: 900px; /* 10px da direita */
-    width: 200px;
+  right: 865px; /* 10px da direita */
+    width: 160px;
     height: 100px;
     object-fit: cover;
     border-radius: 0px;  
@@ -89,9 +92,7 @@ main {
 .fotos3{
     position: absolute;
   top: 525px;  /* 20px do topo */
-  right: 850px; /* 10px da direita */
-    width: 40px;
-    height: 5px;
+  right: 650px; /* 10px da direita */
     object-fit: cover;
     border-radius: 0px;  
 }
@@ -100,8 +101,6 @@ main {
       position: absolute;
   top: 540px;  /* 20px do topo */
   right: 450px; /* 10px da direita */
-    width: 200px;
-    height: 100px;
     object-fit: cover;
     border-radius: 0px;  
 }
@@ -110,8 +109,6 @@ main {
      position: absolute;
   top: 540px;  /* 20px do topo */
   right: 250px; /* 10px da direita */
-    width: 200px;
-    height: 100px;
     object-fit: cover;
     border-radius: 0px;  
 }
@@ -120,8 +117,6 @@ main {
      position: absolute;
   top: 540px;  /* 20px do topo */
   right: 60px; /* 10px da direita */
-    width: 200px;
-    height: 100px;
     object-fit: cover;
     border-radius: 0px;  
 }
@@ -137,7 +132,7 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
-    margin-top: 200px;
+    margin-top: 350px;
 
 
 }
